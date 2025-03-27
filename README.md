@@ -7,3 +7,6 @@ Dieses Projekt verwendet das TMDB Movies Dataset, das auf Kaggle verfügbar ist.
 
 ## 2) Data Privacy and Licensing
 Das TMDB Movies Dataset wird unter einer offenen Lizenz (vergleichbar mit CC- oder MIT-Lizenz) auf Kaggle veröffentlicht und ist für Forschungs- und Bildungszwecke frei zugänglich. Es enthält ausschließlich öffentlich verfügbare Filminformationen und keine personenbezogenen Daten, wodurch Datenschutzbedenken weitgehend entfallen. Sowohl die Datenherausgeber als auch dieses Projekt halten sich an die geltenden Datenschutzrichtlinien, sodass eine unbedenkliche Nutzung gewährleistet ist.
+
+## 3) Installation & Setup
+Stellen Sie sicher, dass eine aktuelle Python-Version (3.8+) installiert ist. Die benötigten Pakete (z. B. pandas, matplotlib, scikit-learn) sollten vor der Nutzung vorhanden sein.

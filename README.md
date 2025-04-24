@@ -10,3 +10,31 @@ Das TMDB Movies Dataset wird unter einer offenen Lizenz (vergleichbar mit CC- od
 
 ## 3) Installation & Setup
 Stellen Sie sicher, dass eine aktuelle Python-Version (3.8+) installiert ist. Die benötigten Pakete (z. B. pandas, matplotlib, scikit-learn) sollten vor der Nutzung vorhanden sein.
+
+
+## Teilauftrag 2 – Datenbeschreibung (`Data_description.ipynb`)
+
+1. **Zielvariable**  
+   - Vorhersage von `revenue` (Einnahmen).
+2. **Deskriptive Statistik**  
+   - Berechnung von Mittelwert, Median und Standardabweichung aller numerischen Felder.
+3. **Visualisierung**  
+   - Histogramm des Budgets.
+   - Streudiagramm Budget vs. Revenue.
+4. **Feature-Engineering**  
+   - Standardisierung des Feldes `budget` mit `StandardScaler`.
+   - Erläuterung (50–100 Wörter) zur Notwendigkeit der Skalierung.
+
+
+## Teilauftrag 3 – Modellierung (`Model.ipynb`)
+
+1. **Datenaufteilung**  
+   - `train_test_split` (80 % Training, 20 % Test).
+2. **Modellwahl**  
+   - `RandomForestRegressor` (100 Bäume, max_depth=10).
+   - Robuste Abbildung nicht-linearer Zusammenhänge, unempfindlich gegen Ausreißer.
+3. **Training & Evaluation**  
+   - R²-Score und MAE auf dem Testset.
+   - Gegenüberstellung tatsächlicher und vorhergesagter Revenues.
+4. **Erkenntnisse** (ca. 80 Wörter)  
+   - Budget, Popularität und Bewertung sind starke Prädiktoren. Bei Blockbustern treten größere Abweichungen auf. Hyperparameter-Tuning und zusätzliche Features (Genre-Dummies, Text-Merkmale) könnten die Vorhersage verbessern.
